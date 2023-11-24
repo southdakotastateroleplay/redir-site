@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Training Meeting</title>
+  <title>Training Sessions</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -31,19 +31,29 @@
       transition: background-color 0.3s;
     }
 
-    .join-button:hover {
-      background-color: #45a049;
+    .disabled-button {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-align: center;
+      background-color: #ddd;
+      color: #666;
+      border-radius: 5px;
     }
   </style>
 </head>
 <body>
 
-  <h1>Next Training Meetings:</h1>
+  <h1>Training Sessions</h1>
 
+  <h2>Active Training Sessions</h2>
+  <p>Not Available at this moment</p>
+
+  <h2>Future Training Sessions</h2>
   <ul>
     <li>
       November 29th
-      <a href="https://to.sdsrp.com/meet/1" class="join-button">Join Now</a>
+      <button class="disabled-button" disabled>Join Now</button>
     </li>
     <!-- Add more items as needed with different dates and links -->
   </ul>
